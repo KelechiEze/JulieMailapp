@@ -1,0 +1,88 @@
+/* Basic Layout for Email Page */
+.email-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #f4f4f9; /* Light background color */
+    min-height: 100vh; /* Ensure it takes up full height */
+  }
+  
+  .email-page h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .email-page .send-email-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-page .send-email-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .email-page .email-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .email-page .email-form-container label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .email-page .email-form-container input,
+  .email-page .email-form-container textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .email-page .email-form-container button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-page .email-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .email-page .status-message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .email-page .status-message.error {
+    color: red;
+  }
+  
+  .email-page .status-message.success {
+    color: green;
+  }
+  
