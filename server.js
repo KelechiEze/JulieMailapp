@@ -62,7 +62,7 @@ console.log(recipients);
 
 // Endpoint to trigger email sending
 app.post('/send-emails', async (req, res) => {
-  console.log("Received a request to /send-emails");
+  console.log("Received a request to /send-emails");console.log("Received a request to /send-emails");
   
   const { recipients, subject, message } = req.body;
 
